@@ -21,7 +21,7 @@ Follow these instructions to set up the project locally.
 
 ### Prerequisites
 
-- [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
+- [npm](https://www.npmjs.com/) 
 
 ### Installation
 
