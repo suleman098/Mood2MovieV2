@@ -16,8 +16,9 @@ export const AppProvider = ({ children }) => {
 
   const [currentemojie, setcurrentEmojie] = useState(null);
 
-const API_KEY = process.env._API_ACESS;
+const API_KEY = process.env.API_KEY;
 const ACCESS_TOKEN = process.env.ACCESS_TOKEN;
+
 
   const genreEmojis = {
     28: { emoji: "🤪", mood: "Thrill-seeking" }, // Action
