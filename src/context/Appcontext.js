@@ -16,7 +16,7 @@ export const AppProvider = ({ children }) => {
 
   const [currentemojie, setcurrentEmojie] = useState(null);
 
-const API_KEY = process.env.NEXT_PUBLIC_API_KEY;
+const API_KEY = process.env.NEXT_PUBLIC_API_ACESS;
 const ACCESS_TOKEN = process.env.NEXT_PUBLIC_ACCESS_TOKEN;
 
   const genreEmojis = {
