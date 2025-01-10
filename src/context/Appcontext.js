@@ -16,9 +16,8 @@ export const AppProvider = ({ children }) => {
 
   const [currentemojie, setcurrentEmojie] = useState(null);
 
-  const API_KEY = "9df75407b86477b44444cd6cd3c737bb";
-  const accessToken =
-    "eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI5ZGY3NTQwN2I4NjQ3N2I0NDQ0NGNkNmNkM2M3MzdiYiIsIm5iZiI6MTcyODMxMDQ5MC4yMTgxMjgsInN1YiI6IjY2OTE4NmU5NmY1NGYyNjAxMDQzZGQ0ZSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.NTM9ZMSvJEq45-_7W50mJ5yBoejtPYsQM4rgzYAs29A";
+const API_KEY = process.env.NEXT_PUBLIC_API_KEY;
+const ACCESS_TOKEN = process.env.NEXT_PUBLIC_ACCESS_TOKEN;
 
   const genreEmojis = {
     28: { emoji: "🤪", mood: "Thrill-seeking" }, // Action
